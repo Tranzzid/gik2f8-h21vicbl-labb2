@@ -78,6 +78,10 @@ function saveTask() {
       renderList();
     }
   });
+
+  todoForm.title.value = ""
+  todoForm.description.value = ""
+  todoForm.dueDate.value = ""
 }
 
 function renderList() {
